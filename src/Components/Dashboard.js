@@ -17,13 +17,13 @@ const Dashboard=()=>{
     </div>
       <ul class="sidebar">
      <Link to="/Profile">
-      <li class="sidebar-brand"><a href="#">Create Profile</a></li>
+      <li class="sidebar-brand"><span>Create Profile</span></li>
       </Link>
       <Link to="/Explore">
-      <li><a href="#">Explore</a></li>
+      <li><span>Explore</span></li>
       </Link>
       <Link to="/Jobs">
-      <li><a href="#">Find Jobs</a></li>
+      <li><span>Find Jobs</span></li>
       </Link>
       <div className='out'>
       <Link to="/Homepage">
