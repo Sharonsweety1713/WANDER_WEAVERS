@@ -1,0 +1,184 @@
+
+  
+  .btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  }
+  
+  .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  }
+  
+  #page-content-wrapper {
+  width: 100%;
+  padding: 15px;
+  }
+  
+  #page-content-wrapper {
+  padding: 20px;
+  }
+  
+  .sidebar {
+    list-style-type:none;
+    background-color:#333;
+    width:230px;
+    height:100%;
+    top:68px;
+    bottom:100px;
+    left:0;
+    text-align:left;
+    font-size: 20px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition:1s ease;
+    
+  }
+  
+  .sidebar a {
+    text-decoration:none;
+    color:white;
+    transition:1s ease;
+  }
+  .bbttnn {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #333;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 230px;
+    
+  }
+  
+  .bbttnn:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .sidebar li {
+    text-indent: 20px;
+    line-height: 40px;
+    transition:0.5s ease;
+  }
+  
+  .sidebar li:hover {
+    background-color:#777;
+    cursor:pointer;
+    text-indent: 30px;
+  }
+  
+  .sidebar > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+  }
+  .main_back {
+    position: absolute;
+    border-radius: 10px;
+    transform: rotate(90deg);
+    width: 11em;
+    height: 11em;
+    background: linear-gradient(270deg, #03a9f4, #cc39a4, #ffb5d2);
+    z-index: -2;
+    box-shadow: inset 0px 0px 180px 5px #ffffff;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 14em;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+  }
+  
+  .card {
+    width: 60px;
+    height: 60px;
+    border-top-left-radius: 10px;
+    background: lightgrey;
+    transition: .4s ease-in-out, .2s background-color ease-in-out, .2s background-image ease-in-out;
+    background: rgba(255, 255, 255, 0.596);
+    backdrop-filter: blur(5px);
+    border: 1px solid transparent;
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .card:nth-child(1):hover {
+    background-color: #ff2592;
+  }
+  
+  
+  .text {
+    position: absolute;
+    font-size: 0.7em;
+    transition: .4s ease-in-out;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.33em;
+    z-index: 3;
+  }
+  .out{
+    padding-top: 400px;
+  }
+  .db {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .bb {
+    font-size: 30px;
+  }
+  
+  .wel {
+    max-width: 800px; /* Adjust the width as needed */
+    padding: 20px;
+  }
+  .wel-img
+  {
+    padding-left: 250px;
+    padding-top: 10px;
+    width: 100%; /* Set the desired width */
+
+  height: 400px;
+  }
+  .welcome-message {
+    font-size: 35px;
+    text-align: center;
+padding-top: 100px;
+    margin-bottom: 10px;
+  }
