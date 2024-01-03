@@ -108,11 +108,6 @@ const Signin = () => {
           <div className="panel right-panel">
             <div className="content">
 
-              {/* <Link to="/Dashboard">
-                <button className="btn-custom" id="sign-up-btn" >
-                  Sign in
-                </button>
-              </Link> */}
             </div>
             <img
               src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png"
